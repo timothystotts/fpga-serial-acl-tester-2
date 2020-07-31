@@ -1,0 +1,4 @@
+[submodule "ACL-Tester-Design-Zynq/IP/vivado-library"]
+	path = ACL-Tester-Design-Zynq/IP/vivado-library
+	url = git@github.com:timothystotts/vivado-library.git
+	branch = arty-a7-100-vivado-2019.1
