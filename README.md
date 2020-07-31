@@ -1,6 +1,8 @@
 # fpga-serial-acl-tester-2
 
 FPGA Serial ACL Tester Version 2
+by Timothy Stotts
+
 
 ## Description
 A small AP SoC project of Zynq-7000 implementation for testing Measurement and Activity Events of a SPI accelerometer.
