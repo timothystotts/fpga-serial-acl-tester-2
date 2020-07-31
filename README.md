@@ -12,7 +12,7 @@ Digilent Inc. Pmod SSD.
 The folder ACL-Tester-Design-Zynq contains a Xilinx Vivado IP Integrator plus
 Xilinx SDK design. The Zynq hard ARM CPU #0 is configured to talk with board
 components,
-a SPI Flash peripheral,
+a SPI MEMS accelerometer peripheral,
 a 16x2 character LCD peripheral,
 and a 7-segment display.
 
