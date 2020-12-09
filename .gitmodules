@@ -1,4 +1,4 @@
 [submodule "ACL-Tester-Design-Zynq/IP/vivado-library"]
 	path = ACL-Tester-Design-Zynq/IP/vivado-library
-	url = git@github.com:timothystotts/vivado-library.git
+	url = https://github.com/timothystotts/vivado-library.git
 	branch = zybo-z7-20-vivado-2020.2
