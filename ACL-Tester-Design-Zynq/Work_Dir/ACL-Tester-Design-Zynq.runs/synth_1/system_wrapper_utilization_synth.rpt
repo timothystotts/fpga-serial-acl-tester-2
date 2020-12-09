@@ -1,8 +1,8 @@
-Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Fri Jul 31 16:34:42 2020
-| Host         : l2study running 64-bit Ubuntu 18.04.4 LTS
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Wed Dec  9 12:44:42 2020
+| Host         : l2study running 64-bit Ubuntu 18.04.5 LTS
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
 | Device       : 7z020clg400-1
@@ -163,8 +163,8 @@ Table of Contents
 | system_processing_system7_0_0 |    1 |
 | system_axi_gpio_0_0           |    1 |
 | system_auto_pc_0              |    1 |
-| system_PmodCLS_0_0            |    1 |
-| system_PmodACL2_0_0           |    1 |
+| system_PmodCLS_0_1            |    1 |
+| system_PmodACL2_0_1           |    1 |
 | system_PWM_1_0                |    1 |
 | system_PWM_0_0                |    1 |
 | system_MuxSSD_0_0             |    1 |
