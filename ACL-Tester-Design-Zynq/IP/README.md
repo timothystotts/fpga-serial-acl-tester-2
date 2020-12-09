@@ -35,18 +35,18 @@ fpga-serial-acl-tester-2-master/ACL-Tester-Design-Zynq/IP/
 Navigate the web browser to
 [http://github.com/timothystotts/vivado-library](http://github.com/timothystotts/vivado-library)
 .
-Select branch **zyvo-z7-20-vivado-2019.1** on the web page. Then download the
+Select branch **zyvo-z7-20-vivado-2020.2** on the web page. Then download the
 ZIP file. Place the ZIP file in the folder location:
 ```bash
  fpga-serial-acl-tester-2-master/ACL-Tester-Design-Zynq/IP/
 ```
 Then extract the ZIP file. Its contents should create a
 ```bash
-vivado-library-zybo-z7-20-vivado-2019.1
+vivado-library-zybo-z7-20-vivado-2020.2
 ```
 folder with the contents same as a would have downloaded to the vivado-library/
 folder with the git clone --recurse-submodule command.
-Before running Xilinx Vivado 2019.1, rename this folder to
+Before running Xilinx Vivado 2020.2, rename this folder to
 ```bash
 vivado-library
 ```

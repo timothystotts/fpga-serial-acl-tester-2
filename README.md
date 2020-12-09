@@ -27,8 +27,8 @@ two real-time tasks to display data, and a real-time task to color-miix RGB LEDs
 
 ./Serial ACL Readings Tester - Zynq.pdf
 
-[Serial ACL Readings Tester - Zynq info](https://github.com/timothystotts/fpga-serial-acl-tester-2/blob/master/Serial%20ACL%20Readings%20Tester%20-%20Zynq.pdf)
+[Serial ACL Readings Tester - Zynq info](https://github.com/timothystotts/fpga-serial-acl-tester-2/blob/main/Serial%20ACL%20Readings%20Tester%20-%20Zynq.pdf)
 
 #### Target device assembly: Zybo-Z7-20 with Pmod ACL2, Pmod CLS, Pmod SSD, on extension cables
 
-![Target device assembly](https://github.com/timothystotts/fpga-serial-acl-tester-2/blob/master/img_serial-acl-tester-assembled-20200731.jpg)
+![Target device assembly](https://github.com/timothystotts/fpga-serial-acl-tester-2/blob/main/img_serial-acl-tester-assembled-20200731.jpg)

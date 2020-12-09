@@ -1,8 +1,8 @@
--- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Fri Jul 31 15:54:33 2020
--- Host        : l2study running 64-bit Ubuntu 18.04.4 LTS
+-- Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+-- Date        : Wed Dec  9 12:41:11 2020
+-- Host        : l2study running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode funcsim
 --               /home/timothystotts/Workareas/GitHub/timothystotts/fpga-serial-acl-tester-2/ACL-Tester-Design-Zynq/IPI-BDs/system/ip/system_MuxSSD_0_0/system_MuxSSD_0_0_sim_netlist.vhdl
 -- Design      : system_MuxSSD_0_0
@@ -2270,13 +2270,19 @@ architecture STRUCTURE of system_MuxSSD_0_0_MuxSSD_v1_0 is
   signal \^ssd_mux_o\ : STD_LOGIC;
   signal \NLW_s_clk_div_cnt0_carry__3_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 1 );
   signal \NLW_s_clk_div_cnt0_carry__3_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 2 );
+  attribute ADDER_THRESHOLD : integer;
+  attribute ADDER_THRESHOLD of s_clk_div_cnt0_carry : label is 35;
+  attribute ADDER_THRESHOLD of \s_clk_div_cnt0_carry__0\ : label is 35;
+  attribute ADDER_THRESHOLD of \s_clk_div_cnt0_carry__1\ : label is 35;
+  attribute ADDER_THRESHOLD of \s_clk_div_cnt0_carry__2\ : label is 35;
+  attribute ADDER_THRESHOLD of \s_clk_div_cnt0_carry__3\ : label is 35;
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of \s_clk_div_cnt[0]_i_1\ : label is "soft_lutpair6";
   attribute SOFT_HLUTNM of \s_clk_div_cnt[18]_i_4\ : label is "soft_lutpair6";
   attribute SOFT_HLUTNM of \s_curr_disp[0]_i_1\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \s_curr_disp[1]_i_1\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \s_curr_disp[1]_i_1\ : label is "soft_lutpair2";
   attribute SOFT_HLUTNM of \s_curr_disp[2]_i_1\ : label is "soft_lutpair3";
-  attribute SOFT_HLUTNM of \s_curr_disp[3]_i_1\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \s_curr_disp[3]_i_1\ : label is "soft_lutpair3";
   attribute SOFT_HLUTNM of \s_curr_disp[4]_i_1\ : label is "soft_lutpair4";
   attribute SOFT_HLUTNM of \s_curr_disp[5]_i_1\ : label is "soft_lutpair4";
   attribute SOFT_HLUTNM of \s_curr_disp[6]_i_1\ : label is "soft_lutpair5";
@@ -3240,7 +3246,7 @@ entity system_MuxSSD_0_0 is
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of system_MuxSSD_0_0 : entity is "yes";
   attribute x_core_info : string;
-  attribute x_core_info of system_MuxSSD_0_0 : entity is "MuxSSD_v1_0,Vivado 2019.1";
+  attribute x_core_info of system_MuxSSD_0_0 : entity is "MuxSSD_v1_0,Vivado 2020.2";
 end system_MuxSSD_0_0;
 
 architecture STRUCTURE of system_MuxSSD_0_0 is
@@ -3250,7 +3256,7 @@ architecture STRUCTURE of system_MuxSSD_0_0 is
   attribute x_interface_parameter : string;
   attribute x_interface_parameter of ext_mux_clk : signal is "XIL_INTERFACENAME ext_mux_clk, ASSOCIATED_BUSIF seg_gpio:ssd_mux, ASSOCIATED_RESET ext_mux_rst, FREQ_HZ 50000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0";
   attribute x_interface_info of ext_mux_rst : signal is "xilinx.com:signal:reset:1.0 ext_mux_rst RST";
-  attribute x_interface_parameter of ext_mux_rst : signal is "XIL_INTERFACENAME ext_mux_rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  attribute x_interface_parameter of ext_mux_rst : signal is "XIL_INTERFACENAME ext_mux_rst, POLARITY ACTIVE_HIGH, INSERT_VIP 0";
   attribute x_interface_info of s00_axi_aclk : signal is "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   attribute x_interface_parameter of s00_axi_aclk : signal is "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 50000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0";
   attribute x_interface_info of s00_axi_aresetn : signal is "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";

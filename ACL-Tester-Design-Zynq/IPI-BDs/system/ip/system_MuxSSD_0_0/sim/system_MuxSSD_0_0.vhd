@@ -149,7 +149,7 @@ ARCHITECTURE system_MuxSSD_0_0_arch OF system_MuxSSD_0_0 IS
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR";
   ATTRIBUTE X_INTERFACE_INFO OF ssd_mux_o: SIGNAL IS "xilinx.com:interface:gpio:1.0 ssd_mux TRI_O";
   ATTRIBUTE X_INTERFACE_INFO OF ssd_seg_o: SIGNAL IS "xilinx.com:interface:gpio:1.0 seg_gpio TRI_O";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF ext_mux_rst: SIGNAL IS "XIL_INTERFACENAME ext_mux_rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF ext_mux_rst: SIGNAL IS "XIL_INTERFACENAME ext_mux_rst, POLARITY ACTIVE_HIGH, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF ext_mux_rst: SIGNAL IS "xilinx.com:signal:reset:1.0 ext_mux_rst RST";
   ATTRIBUTE X_INTERFACE_PARAMETER OF ext_mux_clk: SIGNAL IS "XIL_INTERFACENAME ext_mux_clk, ASSOCIATED_BUSIF seg_gpio:ssd_mux, ASSOCIATED_RESET ext_mux_rst, FREQ_HZ 50000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF ext_mux_clk: SIGNAL IS "xilinx.com:signal:clock:1.0 ext_mux_clk CLK";
