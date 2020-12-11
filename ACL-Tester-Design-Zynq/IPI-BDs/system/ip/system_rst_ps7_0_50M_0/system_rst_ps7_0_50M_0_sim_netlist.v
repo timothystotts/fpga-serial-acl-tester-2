@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-// Date        : Wed Dec  9 12:39:40 2020
-// Host        : l2study running 64-bit Ubuntu 18.04.5 LTS
+// Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+// Date        : Thu Dec 10 19:50:26 2020
+// Host        : J1STUDY running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               /home/timothystotts/Workareas/GitHub/timothystotts/fpga-serial-acl-tester-2/ACL-Tester-Design-Zynq/IPI-BDs/system/ip/system_rst_ps7_0_50M_0/system_rst_ps7_0_50M_0_sim_netlist.v
+//               w:/wa/fpga-serial-acl-tester-2/ACL-Tester-Design-Zynq/IPI-BDs/system/ip/system_rst_ps7_0_50M_0/system_rst_ps7_0_50M_0_sim_netlist.v
 // Design      : system_rst_ps7_0_50M_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
